@@ -10,8 +10,9 @@ public class Ponto {
     }
 
     public double distOrigem(){
-        double dist = Math.sqrt(Math.pow(x, 2) + Math.pow(y,2));
-        return dist;
+        double dist;
+        Ponto origem = new Ponto();
+        return dist = calcularDistancia(origem);
     }
 
     public double maisProx(Ponto p1, Ponto p2){
